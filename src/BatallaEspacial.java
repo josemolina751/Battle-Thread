@@ -3,8 +3,8 @@ public class BatallaEspacial {
 
         Contador contador = new Contador();
 
-        NaveEstelar batalla1 = new NaveEstelar(contador, "ZORG");
-        NaveEstelar batalla2 = new NaveEstelar(contador, "BLIP");
+        NaveEstelar batalla1 = new NaveEstelar(contador, "Zorg");
+        NaveEstelar batalla2 = new NaveEstelar(contador, "Blip");
 
 
         Thread h1 = new Thread(batalla1);
